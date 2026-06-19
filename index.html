@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,100 +8,74 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!DOCTYPE html>
+    <h1>🚀 Interactive Solar System</h1>
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Solar System</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <p class="subtitle">
+        Tap • Listen • Explore Space
+    </p>
 
-```
-<h1>🚀 Interactive Solar System</h1>
+    <img src="images/solar-system.png"
+         alt="Solar System"
+         class="solar-image">
 
-<p class="subtitle">
-    Tap • Listen • Explore Space
-</p>
+    <!-- Welcome Button -->
 
-<img src="images/solar-system.png"
-     alt="Solar System"
-     class="solar-image">
-
-<!-- Welcome Button -->
-
-<div style="margin-bottom:20px;">
-    <button onclick="playWelcome()"
+    <div style="margin-bottom:20px;">
+        <button onclick="playWelcome()"
             style="background:#4CAF50;color:white;padding:12px 20px;border:none;border-radius:10px;font-size:16px;cursor:pointer;">
-        🚀 Welcome Message
-    </button>
-</div>
+            🚀 Welcome Message
+        </button>
+    </div>
 
-<!-- Planet Buttons -->
+    <!-- Planet Buttons -->
 
-<div class="planet-buttons">
+    <div class="planet-buttons">
 
-    <button onclick="playPlanet('sun')">☀️ Sun</button>
+        <button onclick="playPlanet('sun')">☀️ Sun</button>
+        <button onclick="playPlanet('mercury')">☿ Mercury</button>
+        <button onclick="playPlanet('venus')">♀ Venus</button>
+        <button onclick="playPlanet('earth')">🌍 Earth</button>
+        <button onclick="playPlanet('mars')">♂ Mars</button>
+        <button onclick="playPlanet('jupiter')">♃ Jupiter</button>
+        <button onclick="playPlanet('saturn')">♄ Saturn</button>
+        <button onclick="playPlanet('uranus')">⛢ Uranus</button>
+        <button onclick="playPlanet('neptune')">♆ Neptune</button>
 
-    <button onclick="playPlanet('mercury')">☿ Mercury</button>
+    </div>
 
-    <button onclick="playPlanet('venus')">♀ Venus</button>
+    <!-- Thank You Button -->
 
-    <button onclick="playPlanet('earth')">🌍 Earth</button>
-
-    <button onclick="playPlanet('mars')">♂ Mars</button>
-
-    <button onclick="playPlanet('jupiter')">♃ Jupiter</button>
-
-    <button onclick="playPlanet('saturn')">♄ Saturn</button>
-
-    <button onclick="playPlanet('uranus')">⛢ Uranus</button>
-
-    <button onclick="playPlanet('neptune')">♆ Neptune</button>
-
-</div>
-
-<!-- Thank You Button -->
-
-<div style="margin-top:20px; margin-bottom:20px;">
-    <button onclick="playThankYou()"
+    <div style="margin-top:20px; margin-bottom:20px;">
+        <button onclick="playThankYou()"
             style="background:#FF9800;color:white;padding:12px 20px;border:none;border-radius:10px;font-size:16px;cursor:pointer;">
-        🌟 Thank You Message
-    </button>
-</div>
+            🌟 Thank You Message
+        </button>
+    </div>
 
-<!-- Information Box -->
+    <!-- Info Box -->
 
-<div id="planet-info">
+    <div id="planet-info">
 
-    <h2>🚀 Welcome Space Explorer!</h2>
+        <h2>🚀 Welcome Space Explorer!</h2>
 
-    <p>
-        Start with the Welcome Message or tap any planet to hear it introduce itself.
-    </p>
+        <p>
+            Start with the Welcome Message or tap any planet to hear it introduce itself.
+        </p>
 
-    <p>
-        Created by Vishwa Malge | Class 2
-    </p>
+        <p>
+            Created by Vishwa Malge | Class 2
+        </p>
 
-</div>
+    </div>
 
-<!-- Audio Player -->
+    <!-- Audio -->
 
-<audio id="audio-player"></audio>
+    <audio id="audio-player"></audio>
 
-<!-- JavaScript -->
-
-<script src="script.js"></script>
-```
-
-</body>
-</html>
-
+    <script src="script.js"></script>
 
 </body>
 </html>
