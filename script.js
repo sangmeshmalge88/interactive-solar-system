@@ -3,7 +3,7 @@ let currentAudio = null;
 const planetData = {
 
     sun: {
-        audio: "audio/sun.mp3",
+        audio: "audio/sun.mp4",
         title: "☀️ Sun",
         facts: [
             "I am a star.",
@@ -13,7 +13,7 @@ const planetData = {
     },
 
     mercury: {
-        audio: "audio/mercury.mp3",
+        audio: "audio/mercury.mp4",
         title: "☿ Mercury",
         facts: [
             "Closest planet to the Sun.",
@@ -23,7 +23,7 @@ const planetData = {
     },
 
     venus: {
-        audio: "audio/venus.mp3",
+        audio: "audio/venus.mp4",
         title: "♀ Venus",
         facts: [
             "Second planet from the Sun.",
@@ -33,7 +33,7 @@ const planetData = {
     },
 
     earth: {
-        audio: "audio/earth.mp3",
+        audio: "audio/earth.mp4",
         title: "🌍 Earth",
         facts: [
             "Our home planet.",
@@ -43,7 +43,7 @@ const planetData = {
     },
 
     mars: {
-        audio: "audio/mars.mp3",
+        audio: "audio/mars.mp4",
         title: "♂ Mars",
         facts: [
             "Known as the Red Planet.",
@@ -53,7 +53,7 @@ const planetData = {
     },
 
     jupiter: {
-        audio: "audio/jupiter.mp3",
+        audio: "audio/jupiter.mp4",
         title: "♃ Jupiter",
         facts: [
             "Largest planet.",
@@ -63,7 +63,7 @@ const planetData = {
     },
 
     saturn: {
-        audio: "audio/saturn.mp3",
+        audio: "audio/saturn.mp4",
         title: "♄ Saturn",
         facts: [
             "Famous for its rings.",
@@ -73,7 +73,7 @@ const planetData = {
     },
 
     uranus: {
-        audio: "audio/uranus.mp3",
+        audio: "audio/uranus.mp4",
         title: "⛢ Uranus",
         facts: [
             "Blue-green planet.",
@@ -83,7 +83,7 @@ const planetData = {
     },
 
     neptune: {
-        audio: "audio/neptune.mp3",
+        audio: "audio/neptune.mp4",
         title: "♆ Neptune",
         facts: [
             "Farthest planet from the Sun.",
