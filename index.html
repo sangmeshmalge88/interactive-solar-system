@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Solar System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🚀 Interactive Solar System</h1>
+
+    <p class="subtitle">
+        Tap any planet to hear it speak!
+    </p>
+
+    <img src="images/solar-system.png"
+         alt="Solar System"
+         class="solar-image">
+
+    <div class="planet-buttons">
+
+        <button onclick="playPlanet('sun')">☀️ Sun</button>
+
+        <button onclick="playPlanet('mercury')">☿ Mercury</button>
+
+        <button onclick="playPlanet('venus')">♀ Venus</button>
+
+        <button onclick="playPlanet('earth')">🌍 Earth</button>
+
+        <button onclick="playPlanet('mars')">♂ Mars</button>
+
+        <button onclick="playPlanet('jupiter')">♃ Jupiter</button>
+
+        <button onclick="playPlanet('saturn')">♄ Saturn</button>
+
+        <button onclick="playPlanet('uranus')">⛢ Uranus</button>
+
+        <button onclick="playPlanet('neptune')">♆ Neptune</button>
+
+    </div>
+
+    <div id="planet-info">
+
+        <h2>Welcome Space Explorer!</h2>
+
+        <p>
+            Select a planet to begin your journey.
+        </p>
+
+    </div>
+
+    <audio id="audio-player"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
