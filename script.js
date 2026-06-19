@@ -117,3 +117,46 @@ function playPlanet(planet) {
         </ul>
     `;
 }
+
+function playWelcome() {
+
+```
+const player = document.getElementById("audio-player");
+
+player.pause();
+player.src = "audio/welcome.mp4";
+player.load();
+player.play();
+
+document.getElementById("planet-info").innerHTML = `
+    <h2>🚀 Welcome Space Explorer!</h2>
+    <p>
+    Welcome to our Interactive Solar System.
+    Tap any planet to hear it introduce itself and discover amazing facts about space.
+    </p>
+`;
+```
+
+}
+
+function playThankYou() {
+
+```
+const player = document.getElementById("audio-player");
+
+player.pause();
+player.src = "audio/end.mp4";
+player.load();
+player.play();
+
+document.getElementById("planet-info").innerHTML = `
+    <h2>🌟 Thank You!</h2>
+    <p>
+    Thank you for exploring our Solar System.
+    We hope you enjoyed learning about the planets and the Sun.
+    Keep exploring and keep learning!
+    </p>
+`;
+```
+
+}
